@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  body {
+    @apply text-zinc-400 font-normal font-rubik overflow-x-hidden
+  }
+}
+.container {
+  @apply max-w-7xl mx-auto px-3 w-full md:px-2 xxs:px-1
+}
